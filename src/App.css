@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -35,4 +34,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.fretboard{
+  width: 650px;
+  height: 50px;
+  background: rgb(125, 84, 55);
+  position: relative;
+}
+
+.fret{
+  border-right: 1px solid rgb(100, 100, 100);
+  width: 1px;
+  height: 50px;
+  background: rgb(238, 233, 233);
+  position: absolute;
+}
+
+input[type="range"]{
+  width:300px;
 }
