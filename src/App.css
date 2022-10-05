@@ -54,3 +54,7 @@
 input[type="range"]{
   width:300px;
 }
+
+.fret-label{
+  user-select: none;
+}
